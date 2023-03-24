@@ -8,6 +8,10 @@ temel kullanıcı yönetimi için full-stack bir örnek olmasını amaçladığ�
 Projenin mimarını işlemlerin temel anlamda yapılabilmesini göstermek amacıyla oluşturdum, geliştirmek,
 düzenlem ya da değiştirmek sizin elinizde.
 
+![](https://github.com/cosarberk/Rbum/blob/main/review/r1berk.png)
+
+![](https://github.com/cosarberk/Rbum/blob/main/review/r2root.png)
+
 ## Neler Elde ediceksiniz ?
 
 ### back-end tarafında;
