@@ -113,7 +113,7 @@ export default function Helper(){
     type =  apiAddr.login.type
     ApiEngine(h, url, type ,data,(res)=>{
       AlertMessage(res.msg,res.code)
-      callback(res.data)
+      callback(res)
     })
   }
 

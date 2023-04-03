@@ -42,8 +42,9 @@ export const LoginPage = () => {
        }
        
        Login(headers,userinfo,(res)=>{
-        if (res!=="") {
-          login({jwt:res,name:userinfo.user });
+        if (res.code!==1) {
+         // console.log(res)
+          login({jwt:res.data,name:userinfo.user });
           enqueueSnackbar('Jwt Hafızaya Alındı.', { variant: 'success' })
         }
  })
